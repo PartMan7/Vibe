@@ -2,8 +2,12 @@
   "name": "vibe",
   "module": "src/index.ts",
   "type": "module",
+  "scripts": {
+    "prettier": "prettier . --write"
+  },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "prettier": "^3.5.3"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
